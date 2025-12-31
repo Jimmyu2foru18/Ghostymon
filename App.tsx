@@ -180,14 +180,16 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen w-full relative overflow-hidden flex flex-col items-center justify-center bg-[#02040a] text-slate-100 font-sans">
-      
-      {/* Dynamic Game Background */}
-      <div className="fixed inset-0 z-0 pointer-events-none">
+<div className="min-h-screen w-full relative overflow-hidden flex flex-col items-center justify-center bg-[#02040a] text-slate-100 font-sans">
+
+  {/* Dynamic Game Background */}
+  <div className="fixed inset-0 z-0 pointer-events-none">
 <img
   src={`${import.meta.env.BASE_URL}Background6.png`}
   alt="Void Background"
+  className="w-full h-full object-cover"
 />
+
 
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black"></div>
         <div className="absolute top-[-20%] left-[-20%] w-[60%] h-[60%] bg-indigo-900/30 rounded-full blur-[160px] opacity-40"></div>
@@ -368,9 +370,10 @@ const App: React.FC = () => {
               <p className="text-xl">GHOSTYMON BATTLE v2.7</p>
               <p>A spectral strategy RPG through 20 levels of the abyss.</p>
               <div className="pt-8 opacity-50 text-sm">
-                <p>Designed for Community Games</p>
-                <p>© 2025 @Th3viousGameus</p>
+                <p>Designed for Ghost Community Games</p>
+				<p>@Th3viousGameus</p>
                 <p>  @Its_GhostGirl</p>
+				<p> © 2025</p> 
               </div>
             </div>
           </GameOverlay>
