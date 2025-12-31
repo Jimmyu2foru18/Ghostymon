@@ -1,0 +1,7 @@
+{
+  "name": "Ghostymon Battle",
+  "description": "A turn-based RPG battle game featuring spooky monsters with unique abilities, multiple levels, and strategic combat mechanics.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
