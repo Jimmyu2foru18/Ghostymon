@@ -367,8 +367,9 @@ const App: React.FC = () => {
               <p className="text-xl">GHOSTYMON BATTLE v2.7</p>
               <p>A spectral strategy RPG through 20 levels of the abyss.</p>
               <div className="pt-8 opacity-50 text-sm">
-                <p>Designed for the Shadows</p>
-                <p>© 2025 Ghostymon Project</p>
+                <p>Designed for Community Games</p>
+                <p>© 2025 @Th3viousGameus</p>
+                <p>  @Its_GhostGirl</p>
               </div>
             </div>
           </GameOverlay>
