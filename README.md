@@ -28,10 +28,6 @@ A turn-based battle game with ghost-themed monsters, inspired by Pokémon. Battl
    - After each victory, your monster recovers some health
    - Each new level features a stronger enemy with unique abilities
 
+@Th3viousGameus
+@Its_GhostGirl
 
-
-All monster and background images are from the original Ghostymon project.
-
-## License
-
-This project is available for personal use and educational purposes.
