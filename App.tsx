@@ -184,11 +184,10 @@ const App: React.FC = () => {
       
       {/* Dynamic Game Background */}
       <div className="fixed inset-0 z-0 pointer-events-none">
-        <img 
-          src="Background6.png" 
-          alt="Void Background" 
-          className="w-full h-full object-cover opacity-30 brightness-50"
-        />
+    <img
+  src={`${import.meta.env.BASE_URL}Background6.png`}
+  alt="Void Background"
+/>
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-black"></div>
         <div className="absolute top-[-20%] left-[-20%] w-[60%] h-[60%] bg-indigo-900/30 rounded-full blur-[160px] opacity-40"></div>
         <div className="absolute bottom-[-20%] right-[-20%] w-[60%] h-[60%] bg-blue-900/20 rounded-full blur-[160px] opacity-40"></div>
